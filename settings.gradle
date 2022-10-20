@@ -1,4 +1,5 @@
 rootProject.name = 'spring-multi-module'
 include 'sub-project-1'
 include 'sub-project-2'
+include 'common'
 
