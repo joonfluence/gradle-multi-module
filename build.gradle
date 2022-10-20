@@ -11,6 +11,17 @@ repositories {
     mavenCentral()
 }
 
+subprojects{
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+}
+
+allprojects {
+    task('hello').doLast{
+        println "I'm $project.name"
+    }
+}
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
