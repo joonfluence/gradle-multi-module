@@ -9,6 +9,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation project(":common")
+}
+
 test {
     useJUnitPlatform()
 }
