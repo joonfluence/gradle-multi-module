@@ -1,10 +1,10 @@
-package org.joonfluence.subproject1;
+package org.joonfluence.group;
 
 import org.joonfluence.common.CommonEntity;
 
-public class ModuleOneUser extends CommonEntity {
+public class ModuleGroup extends CommonEntity {
 
-    public ModuleOneUser(String name) {
+    public ModuleGroup(String name) {
         super(name);
     }
 }

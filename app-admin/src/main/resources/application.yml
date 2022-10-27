@@ -1,1 +1,1 @@
-server.post = 8081
+server.post: 8081

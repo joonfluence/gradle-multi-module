@@ -1,9 +1,9 @@
 package org.joonfluence.makers;
 
 import org.joonfluence.common.CommonEntity;
-public class ModuleTwoUser extends CommonEntity {
+public class ModuleMakers extends CommonEntity {
 
-    public ModuleTwoUser(String name) {
+    public ModuleMakers(String name) {
         super(name);
     }
 }

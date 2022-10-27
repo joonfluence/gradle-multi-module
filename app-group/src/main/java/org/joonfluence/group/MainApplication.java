@@ -1,4 +1,4 @@
-package org.joonfluence.subproject1;
+package org.joonfluence.group;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

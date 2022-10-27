@@ -1,4 +1,4 @@
-package org.joonfluence.main;
+package org.joonfluence.makers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
