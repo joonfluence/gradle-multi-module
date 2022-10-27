@@ -22,6 +22,12 @@
 - 쿼리가 들어갔을 때의 테스트코드를 추가해줘야 할 것 
 - DB 구조 설계해보기 
 
+### 궁금증
+
+- 모듈을 나누는 기준은 무엇인가? 
+- 확장성 면에선 문제가 없을까? 
+- 배포는 어떻게 할 수 있을까? 
+
 ### 참고한 사이트
 
 [https://www.youtube.com/watch?v=pSKY3-K9_qc&ab_channel=NikolayPanyukov](https://www.youtube.com/watch?v=pSKY3-K9_qc&ab_channel=NikolayPanyukov)
