@@ -1,1 +1,4 @@
 server.post: 8084
+spring:
+  jpa:
+    show-sql:true

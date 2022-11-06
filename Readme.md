@@ -9,9 +9,12 @@
 -[x] 모듈 구분(group, makers, admin, app)
 -[x] 서브 모듈에 대한 공통 설정
   -[x] 롬복 설정
-  -[x] 스프링부트 설정 
-  - JPA, MapStruct, QueryDSL 설정. 외부 모듈에서 참조까지 해볼 것.
-    - MapStruct : MapStruct is a code generator that greatly simplifies the implementation of mappings between Java bean types based on a convention over configuration approach.
+  -[x] 스프링부트 설정
+  - JPA 설정
+  - MySQL 연결 설정
+  - MapStruct 설정 
+    - MapStruct is a code generator that greatly simplifies the implementation of mappings between Java bean types based on a convention over configuration approach.
+  - QueryDSL 설정. 외부 모듈에서 참조까지 해볼 것.
   - 스프링 시큐리티 설정
     - JWT 설정
     - Security 설정

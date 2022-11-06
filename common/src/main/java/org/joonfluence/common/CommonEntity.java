@@ -7,5 +7,4 @@ import lombok.Getter;
 @AllArgsConstructor
 public class CommonEntity {
     private final String name;
-
 }
