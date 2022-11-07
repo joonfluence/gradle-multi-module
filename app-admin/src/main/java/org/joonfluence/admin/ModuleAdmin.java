@@ -1,10 +1,10 @@
 package org.joonfluence.admin;
 
-import org.joonfluence.common.CommonEntity;
+import org.joonfluence.common.UserEntity;
 
-public class ModuleAdmin extends CommonEntity {
+public class ModuleAdmin extends UserEntity {
 
     public ModuleAdmin(String name) {
-        super(name);
+        super();
     }
 }

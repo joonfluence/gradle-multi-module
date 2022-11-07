@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/kurrant?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/UserProfile?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
     username: root
     password: '!@#gmlfkr7236'
   jpa:
