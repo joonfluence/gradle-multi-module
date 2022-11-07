@@ -53,24 +53,28 @@ allprojects {
 
 project(':app-admin'){
     dependencies {
+        implementation project(':module-core')
         implementation project(':common')
     }
 }
 
 project(':app-group'){
     dependencies {
+        implementation project(':module-core')
         implementation project(':common')
     }
 }
 
 project(':app-makers'){
     dependencies {
+        implementation project(':module-core')
         implementation project(':common')
     }
 }
 
 project(':app-server'){
     dependencies {
+        implementation project(':module-core')
         implementation project(':common')
     }
 }

@@ -1,4 +1,4 @@
-package org.joonfluence.common;
+package org.joonfluence.user.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
