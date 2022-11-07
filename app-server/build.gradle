@@ -1,12 +1,3 @@
-plugins {
-    id 'java'
-    id 'org.springframework.boot' version '2.6.7'
-    id 'io.spring.dependency-management' version '1.0.12.RELEASE'
-}
-
-group 'org.example'
-version '1.0-SNAPSHOT'
-
 repositories {
     mavenCentral()
 }
