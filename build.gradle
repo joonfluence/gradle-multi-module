@@ -20,6 +20,10 @@ subprojects {
         mavenCentral()
     }
 
+    test {
+        useJUnitPlatform()
+    }
+
     // 롬복, Junit은 공통으로 뺀다
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -31,16 +35,20 @@ subprojects {
         testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
         testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     }
+
+    bootJar {
+        enabled = false
+    }
+
+    jar {
+        enabled = true
+    }
 }
 
 allprojects {
     task('hello').doLast{
         println "I'm $project.name"
     }
-}
-
-test {
-    useJUnitPlatform()
 }
 
 project(':app-admin'){
